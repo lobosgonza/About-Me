@@ -1,0 +1,230 @@
+
+Body{
+  text-align: center;
+}
+  h1{
+    font-size: 5.625em;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  p{
+color:#fff;
+      line-height: 2.2;
+      font-family: 'Roboto';
+      font-size: 1.5rem;
+  }
+  h1, h2, h3{
+    color:#fff;
+    font-family: 'Montserrat';
+  }
+  @media (max-width: 576px){
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+p{
+  font-size: 1rem
+}
+  }
+
+  @media (max-width: 640px) and (orientation: landscape){
+    h1{
+      font-size: 2.5rem;
+    }
+    h3{
+      font-size: 1.2rem;
+    }
+    p{
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+  }
+/* navBar */
+.navbar{
+  margin-bottom: 20px;
+}
+
+/* Sections */
+.gradient-section{
+  background: rgb(232,69,69);
+background: linear-gradient(0deg, rgba(232,69,69,1) 1%, rgba(43,46,74,1) 100%);
+}
+.blue-section{
+    background-color: #2b2e4a;
+}
+.purple-section{
+    background-color: #903749;
+}
+.wine-section{
+  background-color: #53354a
+}
+
+/* My Name */
+
+.name-box{
+  padding:13% 0 19%;
+}
+@media(max-width: 768px){
+  .name-box{
+    padding: 45% 0 60%;
+  }
+}
+@media (max-width: 576px){
+.name-box{
+  padding: 60% 0 80%;
+}
+}
+@media (max-width: 1024px) and (orientation: landscape){
+  .name-box{
+    padding:23% 0 29%;
+  }
+}
+@media (max-width: 640px) and (orientation: landscape){
+  .name-box{
+    padding:11% 0 18%;
+  }
+}
+/* Containers */
+
+
+.container-inside{
+  padding: 5%;
+}
+.container-text{
+  padding: 2% 3% 10%;
+}
+@media (max-width: 576px){
+.container-text{
+  padding: 10% 3% 4%;
+}
+}
+
+
+/* Heading Section */
+.section-heading{
+  font-size: 2.5rem;
+  padding: 5%;
+}
+
+/* quienSoy */
+
+.profile-img{
+  padding-top: 0%;
+}
+.fas{
+  color: #fff;
+}
+.quienSoy-texto{
+padding: 2% 15%;
+}
+.quienSoy-icon{
+  padding: 3%;
+}
+@media (max-width: 768px){
+  .profile-img{
+    padding:20% 0% 10%
+  }
+  .quienSoy-texto{
+    padding: 2% 2%;
+  }
+}
+@media (max-width: 576px){
+  .quienSoy-icon{
+    font-size: 3rem;
+    padding: 3%;
+  }
+}
+/* Trabajos */
+.trabajo-img-each{
+width: 35%;
+}
+
+  .trabajos-text{
+    padding: 5% 0 0 ;
+  }
+  #carousel-trabajos{
+    padding: 0;
+  }
+
+@media (max-width: 768px){
+  .trabajo-img-each{
+    width: 70%;
+  }}
+@media (max-width: 1024px) and (orientation: landscape){
+  .trabajo-img-each{
+    width: 60%;
+  }
+}
+@media (max-width: 640px) and (orientation: landscape){
+  .trabajo-img-each{
+    width: 42%;
+  }
+}
+@media (max-width: 576px){
+.trabajo-img-each{
+width: 80%;
+}
+}
+
+/* Habilidades */
+.inner-habilidades-container{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-adobe{
+text-align: right;
+}
+
+.text-web{
+  text-align: left;
+}
+
+.adobe-img{
+float: left;
+width: 50%;
+}
+
+.web-img{
+  float: right;
+  width: 50%;
+}
+
+@media(max-width: 950px){
+  .text-adobe{
+  text-align: center;
+  }
+}
+  .text-web{
+    text-align: center;
+  }
+
+  .adobe-img{
+  width: 80%;
+  float: none;
+  }
+
+  .web-img{
+    width: 80%;
+    float: none;
+  }
+
+
+/* contacto */
+
+/* pie de pagina */
+
+  .igLogo{
+    width: 20%;
+    color: #fff;
+  }
+.copyright{
+padding-top: 5%;
+}
